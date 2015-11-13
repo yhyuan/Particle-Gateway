@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8259,6 +8259,11 @@ http://dangerousprototypes.com</description>
 <wire x1="246.38" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="241.3" y="58.42" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="DIO2"/>
+<wire x1="119.38" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<label x="127" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
